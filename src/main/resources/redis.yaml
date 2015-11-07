@@ -1,0 +1,12 @@
+default:
+  server: 10.40.32.15:6379
+  pool:
+    maxTotal: 1024
+    maxIdle: 200
+    maxWait: 1000
+cc:
+  server: 10.40.32.15:6379
+  pool:
+    maxTotal: 1024
+    maxIdle: 200
+    maxWait: 1000
